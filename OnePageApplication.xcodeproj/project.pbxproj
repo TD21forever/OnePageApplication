@@ -11,6 +11,8 @@
 		F5E6FA5A280346B700E603B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA59280346B700E603B3 /* ContentView.swift */; };
 		F5E6FA5C280346B900E603B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E6FA5B280346B900E603B3 /* Assets.xcassets */; };
 		F5E6FA5F280346B900E603B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E6FA5E280346B900E603B3 /* Preview Assets.xcassets */; };
+		F5E6FA67280346E300E603B3 /* ClockVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA66280346E300E603B3 /* ClockVIew.swift */; };
+		F5E6FA6A2803476B00E603B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA692803476B00E603B3 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F5E6FA59280346B700E603B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5E6FA5B280346B900E603B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E6FA5E280346B900E603B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5E6FA66280346E300E603B3 /* ClockVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockVIew.swift; sourceTree = "<group>"; };
+		F5E6FA692803476B00E603B3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		F5E6FA56280346B700E603B3 /* OnePageApplication */ = {
 			isa = PBXGroup;
 			children = (
+				F5E6FA682803474900E603B3 /* Extensions */,
+				F5E6FA65280346CA00E603B3 /* Clock */,
 				F5E6FA57280346B700E603B3 /* OnePageApplicationApp.swift */,
 				F5E6FA59280346B700E603B3 /* ContentView.swift */,
 				F5E6FA5B280346B900E603B3 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				F5E6FA5E280346B900E603B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5E6FA65280346CA00E603B3 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6FA66280346E300E603B3 /* ClockVIew.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		F5E6FA682803474900E603B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6FA692803476B00E603B3 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E6FA5A280346B700E603B3 /* ContentView.swift in Sources */,
+				F5E6FA6A2803476B00E603B3 /* Color.swift in Sources */,
+				F5E6FA67280346E300E603B3 /* ClockVIew.swift in Sources */,
 				F5E6FA58280346B700E603B3 /* OnePageApplicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
