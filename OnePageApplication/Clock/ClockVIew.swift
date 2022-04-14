@@ -17,6 +17,7 @@ struct ClockVIew: View {
     var body: some View {
         NavigationView{
             VStack{
+
                 header
                     .padding()
                 
