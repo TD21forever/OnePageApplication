@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F54FA455281562B200095B21 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F54FA454281562B200095B21 /* Lottie */; };
+		F54FA459281568EC00095B21 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = F54FA458281568EC00095B21 /* emoji.json */; };
+		F54FA45B28156AC400095B21 /* EmojiRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FA45A28156AC400095B21 /* EmojiRating.swift */; };
 		F5E6FA58280346B700E603B3 /* OnePageApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA57280346B700E603B3 /* OnePageApplicationApp.swift */; };
 		F5E6FA5A280346B700E603B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA59280346B700E603B3 /* ContentView.swift */; };
 		F5E6FA5C280346B900E603B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E6FA5B280346B900E603B3 /* Assets.xcassets */; };
@@ -19,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F54FA458281568EC00095B21 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emoji.json; path = ../../../../../../../Downloads/emoji.json; sourceTree = "<group>"; };
+		F54FA45A28156AC400095B21 /* EmojiRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRating.swift; sourceTree = "<group>"; };
 		F5E6FA54280346B700E603B3 /* OnePageApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePageApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E6FA57280346B700E603B3 /* OnePageApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageApplicationApp.swift; sourceTree = "<group>"; };
 		F5E6FA59280346B700E603B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,12 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54FA455281562B200095B21 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F54FA456281568D500095B21 /* EmojiRating */ = {
+			isa = PBXGroup;
+			children = (
+				F54FA457281568E200095B21 /* Resource */,
+				F54FA45A28156AC400095B21 /* EmojiRating.swift */,
+			);
+			path = EmojiRating;
+			sourceTree = "<group>";
+		};
+		F54FA457281568E200095B21 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F54FA458281568EC00095B21 /* emoji.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		F5E6FA4B280346B700E603B3 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +84,7 @@
 		F5E6FA56280346B700E603B3 /* OnePageApplication */ = {
 			isa = PBXGroup;
 			children = (
+				F54FA456281568D500095B21 /* EmojiRating */,
 				F5F90F6C280752B40091E874 /* MusicPlayer */,
 				F5E6FA682803474900E603B3 /* Extensions */,
 				F5E6FA65280346CA00E603B3 /* Clock */,
@@ -130,6 +154,9 @@
 			dependencies = (
 			);
 			name = OnePageApplication;
+			packageProductDependencies = (
+				F54FA454281562B200095B21 /* Lottie */,
+			);
 			productName = OnePageApplication;
 			productReference = F5E6FA54280346B700E603B3 /* OnePageApplication.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +185,9 @@
 				Base,
 			);
 			mainGroup = F5E6FA4B280346B700E603B3;
+			packageReferences = (
+				F54FA453281562B200095B21 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = F5E6FA55280346B700E603B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,6 +206,7 @@
 				F5E6FA5F280346B900E603B3 /* Preview Assets.xcassets in Resources */,
 				F5E6FA5C280346B900E603B3 /* Assets.xcassets in Resources */,
 				F5F90F6F280753ED0091E874 /* black.mp3 in Resources */,
+				F54FA459281568EC00095B21 /* emoji.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +222,7 @@
 				F5E6FA67280346E300E603B3 /* ClockVIew.swift in Sources */,
 				F5F90F73280754240091E874 /* MusicPlayer.swift in Sources */,
 				F5E6FA58280346B700E603B3 /* OnePageApplicationApp.swift in Sources */,
+				F54FA45B28156AC400095B21 /* EmojiRating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +423,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F54FA453281562B200095B21 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F54FA454281562B200095B21 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F54FA453281562B200095B21 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5E6FA4C280346B700E603B3 /* Project object */;
 }

@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    // the size of ContentView is exactly and always the size of its body
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        Text("hello world")
+            .background(.red)
+            .offset(x: 100, y: 100)
+            .background(.green)
+            
     }
 }
 
