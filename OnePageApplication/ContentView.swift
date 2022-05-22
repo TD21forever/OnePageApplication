@@ -9,15 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     // the size of ContentView is exactly and always the size of its body
+    @State var number:Int = 10
     var body: some View {
-        
-        Text("hello world")
-            .background(.red)
-            .offset(x: 100, y: 100)
-            .background(.green)
-            
+        Text("hello")
+
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

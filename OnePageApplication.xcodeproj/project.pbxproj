@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F54FA455281562B200095B21 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F54FA454281562B200095B21 /* Lottie */; };
-		F54FA459281568EC00095B21 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = F54FA458281568EC00095B21 /* emoji.json */; };
 		F54FA45B28156AC400095B21 /* EmojiRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FA45A28156AC400095B21 /* EmojiRating.swift */; };
 		F5E6FA58280346B700E603B3 /* OnePageApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA57280346B700E603B3 /* OnePageApplicationApp.swift */; };
 		F5E6FA5A280346B700E603B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA59280346B700E603B3 /* ContentView.swift */; };
@@ -16,13 +15,15 @@
 		F5E6FA5F280346B900E603B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E6FA5E280346B900E603B3 /* Preview Assets.xcassets */; };
 		F5E6FA67280346E300E603B3 /* ClockVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA66280346E300E603B3 /* ClockVIew.swift */; };
 		F5E6FA6A2803476B00E603B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E6FA692803476B00E603B3 /* Color.swift */; };
+		F5EF97662823FF930006689F /* WaterWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF97652823FF930006689F /* WaterWaveView.swift */; };
+		F5EF9768282400FB0006689F /* Lorem.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF9767282400FB0006689F /* Lorem.jpeg */; };
+		F5EF976A282401050006689F /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = F5EF9769282401050006689F /* emoji.json */; };
 		F5F90F6F280753ED0091E874 /* black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F90F6D280753ED0091E874 /* black.mp3 */; };
 		F5F90F70280753ED0091E874 /* bad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5F90F6E280753ED0091E874 /* bad.mp3 */; };
 		F5F90F73280754240091E874 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F90F72280754240091E874 /* MusicPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F54FA458281568EC00095B21 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emoji.json; path = ../../../../../../../Downloads/emoji.json; sourceTree = "<group>"; };
 		F54FA45A28156AC400095B21 /* EmojiRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRating.swift; sourceTree = "<group>"; };
 		F5E6FA54280346B700E603B3 /* OnePageApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePageApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E6FA57280346B700E603B3 /* OnePageApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageApplicationApp.swift; sourceTree = "<group>"; };
@@ -31,6 +32,9 @@
 		F5E6FA5E280346B900E603B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5E6FA66280346E300E603B3 /* ClockVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockVIew.swift; sourceTree = "<group>"; };
 		F5E6FA692803476B00E603B3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F5EF97652823FF930006689F /* WaterWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWaveView.swift; sourceTree = "<group>"; };
+		F5EF9767282400FB0006689F /* Lorem.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lorem.jpeg; sourceTree = "<group>"; };
+		F5EF9769282401050006689F /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
 		F5F90F6D280753ED0091E874 /* black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = black.mp3; sourceTree = "<group>"; };
 		F5F90F6E280753ED0091E874 /* bad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad.mp3; sourceTree = "<group>"; };
 		F5F90F72280754240091E874 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
@@ -60,7 +64,7 @@
 		F54FA457281568E200095B21 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				F54FA458281568EC00095B21 /* emoji.json */,
+				F5EF9769282401050006689F /* emoji.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -84,6 +88,7 @@
 		F5E6FA56280346B700E603B3 /* OnePageApplication */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF97602823FF0F0006689F /* WaterWave */,
 				F54FA456281568D500095B21 /* EmojiRating */,
 				F5F90F6C280752B40091E874 /* MusicPlayer */,
 				F5E6FA682803474900E603B3 /* Extensions */,
@@ -118,6 +123,23 @@
 				F5E6FA692803476B00E603B3 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F5EF97602823FF0F0006689F /* WaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF97612823FF180006689F /* Resource */,
+				F5EF97652823FF930006689F /* WaterWaveView.swift */,
+			);
+			path = WaterWave;
+			sourceTree = "<group>";
+		};
+		F5EF97612823FF180006689F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF9767282400FB0006689F /* Lorem.jpeg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		F5F90F6C280752B40091E874 /* MusicPlayer */ = {
@@ -202,11 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EF9768282400FB0006689F /* Lorem.jpeg in Resources */,
 				F5F90F70280753ED0091E874 /* bad.mp3 in Resources */,
 				F5E6FA5F280346B900E603B3 /* Preview Assets.xcassets in Resources */,
 				F5E6FA5C280346B900E603B3 /* Assets.xcassets in Resources */,
+				F5EF976A282401050006689F /* emoji.json in Resources */,
 				F5F90F6F280753ED0091E874 /* black.mp3 in Resources */,
-				F54FA459281568EC00095B21 /* emoji.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EF97662823FF930006689F /* WaterWaveView.swift in Sources */,
 				F5E6FA5A280346B700E603B3 /* ContentView.swift in Sources */,
 				F5E6FA6A2803476B00E603B3 /* Color.swift in Sources */,
 				F5E6FA67280346E300E603B3 /* ClockVIew.swift in Sources */,
